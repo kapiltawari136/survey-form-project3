@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="kapil.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+
+	
+	<style type="text/css">
+		body{background: image.jpg;}
+	</style>
+</head>
+<body>
+
+
+	<div id="mydiv1"><div id="mydiv2">
+	<h1 style="text-align: center;">Survey Form </h1>
+<form>
+	<label for="username">Name</label>
+	<br>
+	<input type="text" name="user name" id="username" placeholder="enter your name" required>
+	<br>
+	<label for="email">Email</label>
+	<br>
+	<input type="email" name="email" id="email" placeholder="enter your email" required>
+	<br>
+	<label for="age">Age</label>
+	<br>
+	<input type="number" name="age" id="age" placeholder="enter your age" required>
+	<br>
+	<select id="currentrole"  name="which option best describe your current role" required>
+		<option value=" ">Select Current Role</option>
+		<option value="student">Student </option>
+		<option value="part time Worker">Part-Time Worker</option>
+		<option value="full time Worker">Full-Time Worker</option>
+		<option value="Other">Other</option>
+		
+
+	</select>
+
+	<p>Would you recommend coddingSteps to a friend? </p>
+	<input type="radio" name="Would you recommend coddingSteps to a friend?" id="definately">
+	<label for="definately">Definately</label>
+	<br>
+    <input type="radio" name="Would you recommend coddingSteps to a friend?" id="maybe">
+    <label for="may be">May be</label>
+    <br>
+	<input type="radio" name="Would you recommend coddingSteps to a friend?" id="definately">
+	<label for="not sure">Not sure</label>
+	<br>
+	<p>What is your favourite feature of this course?</p>
+	<select id="favouritecourse">
+		<option value=" ">Select an option</option>
+		<option value="">Challenges</option>
+		<option value="">Projects</option>
+		<option value="">Learning</option>
+
+
+	</select>
+	<br>
+	<p>What would you like to see improved ?(check all the apply)</p>
+	<input type="checkbox" name="front-end projects" id="frontendprojects">
+	<label id="frontendprojects">Front-end projects</label>
+	<br>
+
+    <input type="checkbox" name="back-end projects" id="backendprojects">
+	<label id="backendprojects">Back-end projects</label>
+	<br>
+
+	<input type="checkbox" name="challenges" id="challenges">
+	<label id="challenges">Challenges</label>
+	<br>
+
+    <input type="checkbox" name="Learning Place" id="LearningPlace">
+	<label id="LearningPlace">Learning Place</label>
+	<br>
+
+	<input type="checkbox" name="Assignments" id="Assignments">
+	<label id="Assignments">Assignments</label>
+	<br>
+
+	<input type="checkbox" name="Additional Course" id="AdditionalCourse">
+	<label for="AdditionalCourse">Additional Course</label>
+	<br><br>
+
+    <p>Any comments or suggestions ?</p>
+    <textarea id="comment" rows="20" cols="100"></textarea>
+	<br>
+
+	<input type="submit" name="submit" value="Submit Form" id="submit">
+
+
+	
+
+	
+
+
+    
+
+</form>
+</div></div>
+	
+
+</body>
+</html>
